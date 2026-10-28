@@ -1,0 +1,131 @@
+{{Short description|Philosopher of complex systems and intentional causation}}
+{{Use mdy dates|date=October 2026}}
+
+{{Infobox philosopher
+| name = Alicia Juarrero
+| region = Western philosophy
+| era = Contemporary philosophy
+| school_tradition = Complexity theory
+| education = University of Miami (PhD)
+| institutions = Prince George's Community College
+| main_interests = Philosophy of action, philosophy of mind, complex systems, causation, neuroethics
+| notable_works = ''Dynamics in Action'' (1999); ''Context Changes Everything'' (2023)
+}}
+
+'''Alicia Juarrero''' is an American philosopher whose research concerns [[complex systems]], [[philosophy of action]], [[philosophy of mind]], [[causality]], and [[neuroethics]]. Her work applies concepts from dynamical systems theory, self-organization, and information theory to questions of intentional behavior, agency, and the emergence of higher-level organization.
+
+Juarrero is the author of ''Dynamics in Action: Intentional Behavior as a Complex System'' (1999) and ''Context Changes Everything: How Constraints Create Coherence'' (2023), both published by [[MIT Press]]. Her account of causation emphasizes the role of constraints in the organization and persistence of complex systems.<ref name="MIT2023">{{cite book |last=Juarrero |first=Alicia |title=Context Changes Everything: How Constraints Create Coherence |publisher=MIT Press |year=2023 |doi=10.7551/mitpress/14630.001.0001}}</ref>
+
+Her work has received scholarly attention in philosophy of action, philosophy of science, and complexity studies, including reviews in ''[[The Philosophical Review]]'', ''[[The British Journal for the Philosophy of Science]]'', and ''[[Philosophical Psychology]]''.<ref name="Khalidi">{{cite journal |last=Khalidi |first=Muhammad Ali |year=2001 |title=Review of Dynamics in Action: Intentional Behavior as a Complex System |journal=The Philosophical Review |volume=110 |issue=3 |pages=469–472}}</ref><ref name="Adams">{{cite journal |last=Adams |first=Frederick |year=2001 |title=Alicia Juarrero, Dynamics in Action: Intentional Behavior as a Complex System |journal=The British Journal for the Philosophy of Science |volume=52 |issue=3 |pages=635–640 |doi=10.1093/bjps/52.3.635}}</ref><ref name="Towl">{{cite journal |last=Towl |first=Brandon N. |year=2001 |title=Dynamics under scrutiny – or, how to teach old problems new tricks: A critical review of Alicia Juarrero's Dynamics in Action |journal=Philosophical Psychology |volume=14 |issue=2 |pages=217–225 |doi=10.1080/09515080120051577}}</ref>
+
+== Education and academic career ==
+
+Juarrero completed her doctoral studies in philosophy at the [[University of Miami]].<ref name="Origins">{{cite web |title=Alicia Juarrero |url=https://www.originspodcast.co/episodes-1/alicia-juarrero |website=Origins Podcast}}</ref>
+
+She served as a professor of philosophy at [[Prince George's Community College]] in Largo, Maryland, where she subsequently held emerita status. Her earlier academic work addressed philosophical questions concerning intentional action, causation, and the organization of complex systems.
+
+Juarrero has also been affiliated with the Neuroethics Studies Program at the Pellegrino Center for Clinical Bioethics at [[Georgetown University Medical Center]]. Her research there has concerned the application of complex systems models to neural processes associated with moral cognition, emotion, and behavior.<ref name="Georgetown">{{cite web |title=Alicia Juarrero, PhD |url=https://clinicalbioethics.georgetown.edu/juarrero/ |website=Georgetown University}}</ref>
+
+She has additionally been identified as a visiting research scholar at the University of Miami.<ref name="MITbio">{{cite web |title=Alicia Juarrero |url=https://mitpress.mit.edu/author/alicia-juarrero-6229/ |website=MIT Press}}</ref>
+
+From 1992 to 2000, Juarrero served on the National Endowment for the Humanities' National Council on the Humanities, following presidential appointment and Senate confirmation. She also chaired its committee concerned with state humanities programs.<ref name="Origins"/>
+
+== Philosophical work ==
+
+=== Complex systems and intentional action ===
+
+A central concern of Juarrero's philosophy is the relationship between intentional action and physical causation. Her work questions whether traditional mechanistic accounts of causality adequately explain organized, goal-directed behavior.
+
+In ''Dynamics in Action: Intentional Behavior as a Complex System'', originally published in 1999, Juarrero develops an account of human action informed by [[dynamical systems theory]]. Rather than treating an intention as an isolated event that initiates a linear sequence of causes, she examines intentional behavior as an organized process involving interactions among components and levels of a complex system.<ref name="Dynamics">{{cite book |last=Juarrero |first=Alicia |title=Dynamics in Action: Intentional Behavior as a Complex System |publisher=MIT Press |year=1999}}</ref>
+
+The book addresses problems in the philosophy of action, including the temporal organization of extended actions and the relationship between intentions and the processes through which actions unfold. Juarrero's approach draws on concepts such as feedback, attractors, nonlinear dynamics, and self-organization.
+
+The philosopher Brandon N. Towl examined this approach in a 2001 critical review, identifying extended action and disrupted causal chains among the philosophical problems Juarrero sought to address using dynamical systems theory.<ref name="Towl"/>
+
+=== Causality as constraint ===
+
+Juarrero's account of causation emphasizes the distinction between mechanical forces and the constraints that organize the possible behavior of systems.
+
+In her 1998 article "Causality as Constraint", she argues that constraints are relational properties associated with the organization of components within larger systems. Constraints can restrict the states available to individual components while also enabling new properties and possibilities at higher levels of organization.<ref name="Constraint">{{cite web |last=Juarrero |first=Alicia |year=1998 |title=Causality as Constraint |url=https://aliciajuarrerodotcom1.wordpress.com/wp-content/uploads/2013/07/causality-as-constraint1.pdf |format=PDF |pages=233–242}}</ref>
+
+The article distinguishes between context-independent constraints, which restrict alternatives without reference to surrounding conditions, and context-sensitive constraints, which establish dependencies among components.
+
+Juarrero relates these distinctions to information theory, where constraints on the distribution and sequence of signals can enable communication. She extends the analysis to self-organizing physical and biological systems, including autocatalytic networks and dissipative structures.
+
+On this account, constraints can simultaneously reduce the possible behavior of components and expand the repertoire of states available to the organized system as a whole.<ref name="Constraint"/>
+
+=== Emergence and downward causation ===
+
+Juarrero's theory of constraints is also concerned with [[emergence]] and [[downward causation]].
+
+In her account, the organization of a complex system affects the behavior of its constituent components. Once components become incorporated into a larger organization, their behavior depends partly on relationships and conditions established at the systemic level.
+
+Juarrero distinguishes the emergence of organized wholes from the subsequent regulation of their components. These processes provide an alternative framework for examining causal relationships between different levels of organization.
+
+Her analysis draws on examples from biological organization, information transmission, and self-organizing systems.<ref name="Constraint"/>
+
+=== Context and coherence ===
+
+Juarrero further develops her theory in ''Context Changes Everything: How Constraints Create Coherence'', published by MIT Press in 2023.
+
+The book distinguishes among enabling, constitutive, and governing constraints. Enabling constraints contribute to the emergence of organized wholes; constitutive constraints maintain their coherence; and governing constraints regulate their subsequent behavior.<ref name="MIT2023"/>
+
+Juarrero applies these distinctions to questions concerning identity, persistence, hierarchy, and the relationships between parts and wholes.
+
+The book also examines the role of historical development and contextual relationships in the maintenance of organized systems. Her account treats the persistence of complex entities as dependent on continuing patterns of interdependence rather than solely on fixed intrinsic properties.
+
+These arguments extend her earlier work on intentional causation into a broader philosophical account of physical, biological, and social organization.<ref name="MIT2023"/>
+
+== Scholarly reception ==
+
+Juarrero's work has been examined in several academic disciplines, particularly philosophy of action and philosophy of science.
+
+''Dynamics in Action'' was reviewed by Muhammad Ali Khalidi in ''The Philosophical Review'' in 2001. Khalidi considered the book's use of complexity and dynamical systems theory in relation to philosophical accounts of intentional action.<ref name="Khalidi"/>
+
+In the same year, Frederick Adams reviewed the book in ''The British Journal for the Philosophy of Science'', while Brandon N. Towl published a critical examination in ''Philosophical Psychology''.<ref name="Adams"/><ref name="Towl"/>
+
+The book has also been discussed in scholarship addressing complex adaptive systems, emergence, and the relationship between self-organization and intentional behavior.
+
+Juarrero's work has been considered in relation to the philosophy of [[Michael Polanyi]], particularly the relationship between hierarchical organization, complexity, and causation.<ref>{{cite journal |last=Takaki |first=K. |title=Juarrero, Polanyi, and Complexity |journal=Tradition & Discovery |volume=40 |issue=1 |url=https://polanyisociety.org/TAD%20WEB%20ARCHIVE/TAD40-1/TAD40-1-fnl-pg5-15-pdf.pdf}}</ref>
+
+Her later work has also been discussed in interdisciplinary forums concerned with cognition, complex systems, and organizational theory, including ''Brain Inspired'' and ''The Jim Rutt Show''.<ref>{{cite web |title=BI 174 Alicia Juarrero: Context Changes Everything |url=https://braininspired.co/podcast/174/ |website=Brain Inspired}}</ref><ref>{{cite web |title=Transcript of EP 191: Alicia Juarrero on Context, Constraints, and Coherence |url=https://jimruttshow.blubrry.net/the-jim-rutt-show-transcripts/transcript-of-ep-191-alicia-juarrero-on-context-constraints-and-coherence/ |website=The Jim Rutt Show}}</ref>
+
+== Other activities ==
+
+Juarrero is president and co-founder of VectorAnalytica, Inc., a company concerned with complex systems analysis.<ref name="MITbio"/>
+
+She has participated in interdisciplinary discussions concerning complexity theory, causation, organizational behavior, and the relationship between scientific models and philosophical explanation.
+
+Her work has also appeared in discussions of the application of complex adaptive systems theory to management and organizational practice.<ref>{{cite web |title=Complex Dynamical Systems Theory |url=https://thecynefin.co/library/complex-dynamical-systems-theory/ |website=The Cynefin Company}}</ref>
+
+== Selected publications ==
+
+=== Books ===
+
+* Juarrero, Alicia (1999). ''Dynamics in Action: Intentional Behavior as a Complex System''. MIT Press. ISBN 0-262-10081-9. Paperback edition published in 2002.
+* Juarrero, Alicia (2023). ''Context Changes Everything: How Constraints Create Coherence''. MIT Press. ISBN 978-0-262-54566-2.
+
+=== Articles and book chapters ===
+
+* Juarrero, Alicia (1998). "Causality as Constraint". In ''Evolutionary Systems''. Kluwer Academic Publishers. pp. 233–242.
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+
+* [https://mitpress.mit.edu/author/alicia-juarrero-6229/ Alicia Juarrero] at MIT Press
+* [https://clinicalbioethics.georgetown.edu/juarrero/ Alicia Juarrero] at Georgetown University
+* [https://scholar.google.com/citations?user=pWlnb0wAAAAJ Alicia Juarrero] at Google Scholar
+* [https://direct.mit.edu/books/oa-monograph/5600/Context-Changes-EverythingHow-Constraints-Create ''Context Changes Everything''], open-access edition at MIT Press
+
+{{Authority control}}
+
+[[Category:Living people]]
+[[Category:American philosophers]]
+[[Category:American women philosophers]]
+[[Category:Philosophers of mind]]
+[[Category:Philosophers of action]]
+[[Category:University of Miami alumni]]
+[[Category:Year of birth missing (living people)]]
