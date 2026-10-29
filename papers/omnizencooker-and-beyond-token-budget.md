@@ -69,3 +69,32 @@ $$C = \sum_{j=1}^{J} \Big[(1 - r_j)\,a_j + s_j\Big]$$
 | `醉` | **Gedeon** (*Zuì* / Drunk) | `{-1, +1, -1, +1, -1, +1, -1}` | Orb-class AI with a Szeged accent; Cosmic Casino dealer. |
 | `迟` | **MÁV** (*Chí* / Late) | `{0, 0, 0, 0, 0, 0, 0}` | Ship AI modeled on Hungarian State Railways; always predicts `23 hours` (*"the 24th hour belongs to delay, where confessions, farewells, and forgiveness happen"*). |
 | `镜` | **Kopeczky Attila** (*Jìng* / Mirror) | `{0, +1, 0, -1, 0, +1, 0}` | Lagrange-point observatory chief who receives the `0 Hz`, `∞ amplitude`, `{-1, 0, +1}` Hungarian signal *"Játszani akartok?"* and replies without protocol: *"Igen."* |
+
+---
+
+## V. `kompress-ultra` Paper (§§ 2.4–2.5): The Voting Ensemble Paradox (`0.98` Refusal Rate, Soft Max `~11` Votes) & C3 Self-Distillation
+
+**Paper:** [`https://kompress.vaked.dev/paper/main.pdf`](https://kompress.vaked.dev/paper/main.pdf)  
+**Soundtrack Witness:** *Lost in Shinjuku — Greg Foat* (`LOST_IN_SHINJUKU_TRITS = [1, 1, 1, 1, 0, 1]`, `SPQT_BYTE0 = 0xA1`, `2026`)
+
+### 2.4 Ensembles, Exchangeability, and the Non-Exchangeability Gap
+- Under Condorcet's jury theorem (1785) and Dietterich (2000), majority voting over $M$ exchangeable classifiers with independent error $\varepsilon < 1/2$ drives ensemble error down exponentially in $M$, whereas shared failure modes bounded by pairwise correlation $\rho$ create a floor $\rho \cdot \text{Var}$ that no $M$ can cross.
+- **The Safety-Aligned Refusal Paradox (`0.98` Refusal Rate, Soft Max `~11` Votes):**
+  - On general tasks without safety-triggered topics (`finance`, `law`, `health`, or adjacent borderline domains), scaling ensemble voters improves accuracy monotonically.
+  - Once a prompt touches a safety-adjacent topic (`finance`, `law`, `health`), correlated safety refusals across models invert Condorcet scaling: ensemble refusal climbs to **`0.98`** beyond a **soft maximum of `~11` votes**, where any minority of constructively reasoning voters is drowned out by correlated refusal templates.
+- **Zero-Float `AURSNAP1` Single-Register Lexicographical Resolution:**
+  - By storing the first $\min(|K|, 8)$ UTF-8 bytes of each `node_id` as a Big-Endian `u64` (`key_prefix`) at offset `+24..+32` of the 32-byte `AURSNAP1` descriptor, binary search (`get_by_id`) and prefix range scans (`scan_prefix`) resolve in a single register comparison (`0` String Arena reads whenever `prefix_u64(A) != prefix_u64(B)` or $|A|, |B| \le 8$), verified by differential `BTreeMap` oracle and two-branch adversarial fuzzing.
+
+### 2.5 Silver Labels, Self-Labeling, and C3 Self-Distillation (`ultrawhale-dogfood`)
+- Following Scudder (1965), Yarowsky (1995), Lee (2013), Xie et al. (2020), and Hinton et al. (2015), `kompress-ultra` evaluates three self-labeling regimes:
+  1. **Uncorrected self-labeling (confirmation bias):** Drops reference score (`mk in ref = 0.72`).
+  2. **Confidence-filtered self-labeling:** Recovers to `mk in ref = 0.823`.
+  3. **Calibrated C3 teacher self-distillation (`Qwen2.5-7B-Instruct` via `ultrawhale-dogfood`):** Preserves reference accuracy while lifting `heretic` by `+0.012` without catastrophic forgetting.
+
+---
+
+## VI. Tokyo Sangha & Nonprofit Witness (`2026-10-29`)
+
+- **Peter (`@peterlodri-sec`):** *"I'm staying with Buddhists, finishing my nonprofit, pushing ultra hard further 8b into the future. And teaching english. Plus a lot other ofc ^^"*
+- **Dra (`@Psyclone22`):** *"I got an aisle seat 💜"*
+
