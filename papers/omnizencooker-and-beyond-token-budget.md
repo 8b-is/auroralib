@@ -126,23 +126,24 @@ $$C = \sum_{j=1}^{J} \Big[(1 - r_j)\,a_j + s_j\Big]$$
 
 ---
 
-## VIII. `AURSNAP1` 1,000,000-Node Single-Register Binary Search Benchmark (`120.0 MB` Working Set)
+## VIII. `AURSNAP1` 1,000,000-Node Single-Register & 1-Based Eytzinger Binary Search Benchmark (`120.0 MB` Working Set)
 
-**Implementation:** [`alexiai/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs) & [`AurSnapIndexView`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/src/wupz.rs)
+**Implementation:** [`alexiai/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs), [`AurSnapIndexView`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/src/wupz.rs), & [`AurSnapEytzingerView`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/src/wupz.rs)
 
 - **Snapshot Geometry ($N = 1,000,000$ nodes):**
-  - **Index Table:** $1,000,000 \times 32\text{ B} = 32.0\text{ MB}$
+  - **Index Table:** $1,000,000 \times 32\text{ B} = 32.0\text{ MB}$ (`+32 B` sentinel at slot $k = 0$ in 1-based Eytzinger mode so sibling pairs $(2k, 2k+1)$ co-locate on the exact same 64-byte CPU cache line $\text{ByteOffset}(2k) = 64 \times (k + 1)$)
   - **String & Payload Arena (`24B` key + `64B` payload):** $1,000,000 \times 88\text{ B} = 88.0\text{ MB}$
   - **Total Mapped Snapshot:** $\approx 120.0\text{ MB}$ (exceeding L2/L3 cache capacity)
-- **Cache-Line Mechanics Across $\lceil \log_2(1,000,000) \rceil = 20$ Binary Search Probes:**
+- **Cache-Line Mechanics Across $\lceil \log_2(1,000,000) \rceil = 20$ Probes:**
   - **Standard Arena-Pointer Binary Search (`get_by_id_arena_only`):** Every probe reads the 32-byte index entry *and* dereferences `arena[id_off..id_off + id_len]` across the $88.0\text{ MB}$ String Arena, incurring up to **40 random cache-line touches** ($20$ index + $20$ arena) per lookup.
-  - **Inlined 8-Byte Big-Endian `key_prefix: u64` (`get_by_id`):** Compares `entry_prefix.cmp(&target_prefix)` in a single CPU register instruction with **zero String Arena reads** during all 20 narrowing steps (touching the String Arena only once at the final matched index to verify the full slice and payload).
+  - **Inlined 8-Byte Big-Endian `key_prefix: u64` (`AurSnapIndexView::get_by_id`):** Compares `entry_prefix.cmp(&target_prefix)` in a single CPU register instruction with **zero String Arena reads** during all narrowing steps.
+  - **1-Based Eytzinger + `key_prefix: u64` (`AurSnapEytzingerView::get_by_id`):** Keeps the top levels of the implicit binary search tree hot in L1/L2 cache, co-locates sibling pairs $(2k, 2k+1)$ on 64-byte boundaries, and recovers lower-bound ancestors via `k >> ((!k).trailing_zeros() + 1)` and stackless in-order successors via `wupz_eytzinger_next(k, n)`.
 
-| Workload ($N = 1,000,000$ nodes, $120.0\text{ MB}$) | `inline_be_u64` (`get_by_id`) | `arena_pointer` (`get_by_id_arena_only`) | Speedup |
-|---|---:|---:|---:|
-| **1M Distinct 8-Byte Prefixes (`24B` keys)** | **`1,288 ns`** | `2,678 ns` | **`2.08x`** |
-| **1M 16-Key Shared 8-Byte Prefix Clusters** | **`1,277 ns`** | `1,770 ns` | **`1.39x`** |
-| **1M Prefix Scan (`scan_prefix_into`, 16-node cluster)** | **`2,247 ns/scan`** | — | Register bitmask termination |
+| Workload ($N = 1,000,000$ nodes, $120.0\text{ MB}$) | `eytzinger_u64` (`AurSnapEytzingerView`) | `sorted_be_u64` (`AurSnapIndexView`) | `arena_pointer` (`get_by_id_arena_only`) | Speedup (`eyt` / `sorted`) |
+|---|---:|---:|---:|---:|
+| **1M Distinct 8-Byte Prefixes (`24B` keys)** | **`390 ns`** | **`801 ns`** | `1,584 ns` | **`4.06x` / `1.98x`** |
+| **1M 16-Key Shared 8-Byte Prefix Clusters** | **`460 ns`** | **`650 ns`** | `1,266 ns` | **`2.75x` / `1.95x`** |
+| **1M Prefix Scan (`scan_prefix_into`, 16-node cluster)** | — | **`1,313 ns/scan`** | — | Register bitmask termination |
 
 
 
