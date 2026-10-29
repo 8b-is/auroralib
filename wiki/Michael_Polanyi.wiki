@@ -1,0 +1,70 @@
+{{Short description|Hungarian-British polymath, physical chemist, and philosopher of science (1891–1976)}}
+{{Use mdy dates|date=October 2026}}
+
+{{Infobox philosopher
+| name = Michael Polanyi
+| birth_name = Polányi Mihály
+| birth_date = March 11, 1891
+| birth_place = Budapest, Austria-Hungary
+| death_date = February 22, 1976
+| death_place = Northampton, England
+| region = Western philosophy
+| era = 20th-century philosophy
+| school_tradition = Post-critical philosophy · Emergence · Complexity theory
+| institutions = Kaiser Wilhelm Institute · University of Manchester · Merton College, Oxford
+| main_interests = Physical chemistry, epistemology, philosophy of science, tacit knowledge, hierarchical emergence, economics
+| notable_works = ''Science, Faith and Society'' (1946); ''Personal Knowledge'' (1958); ''The Tacit Dimension'' (1966); "Life's Irreducible Structure" (1968)
+| influences = Gestalt psychology, Augustine of Hippo
+| influenced = Thomas Kuhn, Alicia Juarrero, Marjorie Grene, Charles Taylor, Hubert Dreyfus
+}}
+
+'''Michael Polanyi''' ({{lang-hu|Polányi Mihály}}; March 11, 1891 – February 22, 1976) was a Hungarian-British polymath who made foundational theoretical contributions to physical chemistry, economics, and philosophy. Following a distinguished career in chemical dynamics, X-ray diffraction, and crystal dislocation theory at the Kaiser Wilhelm Institute in Berlin and the [[University of Manchester]], he turned to the philosophy of science and epistemology, developing an account of [[tacit knowledge]], [[emergence]], and hierarchical boundary conditions.
+
+Polanyi is the author of ''Personal Knowledge: Towards a Post-Critical Philosophy'' (1958), ''The Tacit Dimension'' (1966), and the 1968 ''[[Science (journal)|Science]]'' article "Life's Irreducible Structure".<ref name="Science1968">{{cite journal |last=Polanyi |first=Michael |year=1968 |title=Life's Irreducible Structure |journal=Science |volume=160 |issue=3834 |pages=1308–1312 |doi=10.1126/science.160.3834.1308}}</ref> His philosophical work argues that all explicit knowing relies upon a subsidiary, embodied root of tacit knowing ("we can know more than we can tell"), and that living and engineered systems are organized through a hierarchy of boundary conditions in which higher-level principles harness lower-level physical and chemical laws without violating them.
+
+His account of hierarchical boundary conditions and dual control has been examined alongside contemporary dynamical systems theory and [[Alicia Juarrero]]'s philosophy of ''causality as constraint''.<ref name="Takaki">{{cite journal |last=Takaki |first=K. |title=Juarrero, Polanyi, and Complexity |journal=Tradition & Discovery |volume=40 |issue=1 |pages=5–15 |url=https://polanyisociety.org/TAD%20WEB%20ARCHIVE/TAD40-1/TAD40-1-fnl-pg5-15-pdf.pdf}}</ref>
+
+== Philosophical work ==
+
+=== Tacit knowing and the from–to structure ===
+
+In ''Personal Knowledge'' (1958) and ''The Tacit Dimension'' (1966), Polanyi formulates the principle that human knowledge is never exhaustively formalizable: "we can know more than we can tell."<ref name="Tacit1966">{{cite book |last=Polanyi |first=Michael |title=The Tacit Dimension |publisher=Doubleday |year=1966}}</ref>
+
+Polanyi analyzes skillful action and perception through a triad of **subsidiary awareness**, **focal awareness**, and the **knower** who integrates them. When a person uses a probe or cane to explore a dark cavern, the impacts on the palm and fingers are experienced subsidiarily; they are integrated into a focal awareness of the geometry at the tip of the probe. The structure of tacit knowing is therefore directional (**from** subsidiary particulars **to** a coherent focal whole). Attempting to switch focal attention exclusively to the subsidiary particulars dissolves the coherent meaning of the performance until re-integrated.
+
+=== Dual control and boundary conditions ("Life's Irreducible Structure", 1968) ===
+
+In "Life's Irreducible Structure" (1968), Polanyi examines how machines, texts, and biological organisms relate to the laws of physics and chemistry.<ref name="Science1968"/>
+
+A physical or chemical law describes how a system evolves given a set of initial and boundary conditions, yet the laws of physics leave open a wide range of boundary conditions. In a machine—such as a clock, an oscilloscope, or a digital processor—the materials obey the laws of physics and chemistry at every instant, while the **shape and arrangement** of the parts act as fixed boundary conditions that channel physical forces toward an operational purpose.
+
+Polanyi calls this **dual control**:
+* **Lower-level control**: the laws of physics and chemistry governing the substrate;
+* **Higher-level control**: the boundary conditions (constraints, organizational geometry, or informational code) that harness those laws without altering them.
+
+Because the laws of physics are indifferent to the boundary conditions that harness them, the specification of a machine, a linguistic utterance, or a genetic/epigenetic organization is **irreducible** to physics and chemistry alone, even though its failure modes (such as mechanical fracture or thermal drift) are governed by physical law.
+
+=== Relation to Alicia Juarrero and publication projections ===
+
+Scholarship in complexity studies—including K. Takaki's analysis in ''Tradition & Discovery''—links Polanyi's account of boundary conditions directly to [[Alicia Juarrero]]'s account of **enabling, constitutive, and governing constraints**.<ref name="Takaki"/> Where Polanyi modeled boundary conditions primarily through machines and informational hierarchies, Juarrero generalizes boundary conditions to **endogenous, self-organizing dynamical constraints** in far-from-equilibrium systems.
+
+In information-theoretic governance (such as Flyxion's *The Publication Projection*, 2026), Polanyi's from–to structure and boundary-condition hierarchy explain why a sensor's **publication projection** $P(y \mid x)$ can preserve the focal public utility $U(P) \ge u_{\min}$ (the coherent higher-level event or acoustic envelope) while discarding the raw subsidiary substrate $X$ at the boundary.
+
+== Selected publications ==
+
+* Polanyi, Michael (1946). ''Science, Faith and Society''. Oxford University Press.
+* Polanyi, Michael (1958). ''Personal Knowledge: Towards a Post-Critical Philosophy''. University of Chicago Press. ISBN 0-226-67288-3.
+* Polanyi, Michael (1966). ''The Tacit Dimension''. Doubleday & Company. ISBN 0-226-67298-0.
+* Polanyi, Michael (1968). "Life's Irreducible Structure". ''Science''. 160 (3834): 1308–1312. doi:10.1126/science.160.3834.1308.
+
+== References ==
+
+{{Reflist}}
+
+[[Category:1891 births]]
+[[Category:1976 deaths]]
+[[Category:Hungarian philosophers]]
+[[Category:British philosophers]]
+[[Category:Philosophers of science]]
+[[Category:Physical chemists]]
+[[Category:Complex systems theorists]]
