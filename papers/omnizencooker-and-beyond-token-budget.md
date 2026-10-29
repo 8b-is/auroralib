@@ -145,5 +145,30 @@ $$C = \sum_{j=1}^{J} \Big[(1 - r_j)\,a_j + s_j\Big]$$
 | **1M 16-Key Shared 8-Byte Prefix Clusters** | **`460 ns`** | **`650 ns`** | `1,266 ns` | **`2.75x` / `1.95x`** |
 | **1M Prefix Scan (`scan_prefix_into`, 16-node cluster)** | — | **`1,313 ns/scan`** | — | Register bitmask termination |
 
+---
+
+## IX. A6000 Sovereign Constellation Command Deck (`49.13.101.247` · `RTX 6000 Ada`) & Subsystem D: Peter's 9-Step Tokyo Monozukuri TOSS Spiral
+
+**Node Prime:** `49.13.101.247` (`cheet.is / a6000.8b.is / g6k2.nue.8s.is` · Hetzner `#2936091`) · `NVIDIA RTX 6000 Ada Generation` (`49,140 MiB VRAM` · `48-vCPU Xeon`) · `VLAN 4010` (`10.101.40.247 <-> 10.101.40.186` `160 TB` Vault) · `float_count = 0` (`#![forbid(unsafe_code)]`)
+
+### Subsystem D · Peter's 9-Step Tokyo Monozukuri TOSS Spiral (`432 Hz` · `79 B` `WAVEINT` Frame)
+- **Architect:** Peter Lodri (Omni)
+- **Origin $\to$ Final Center:** `[0, 0] -> [0, 0]` (`residual_drift_pq = 0/1`)
+- **79-Byte `WAVEINT` Frame (`CRC8 = 157` / `0xF4`):** `4D454D380801B00000006400000001020200020202020202000000000000000541363030302D544F53532D53504952414C2D5A45524F2D4452494654000000000000000000000000000000000000F4`
+- **MEM|8 Normative Commitment `#4` (`570004D8230B864CA6011DF7F3D45429`):** `peter@8b.is -> aye-a6000-prime` — *"Tokyo Monozukuri 9-step TOSS spiral returns to `[0,0]` origin with `0/1` drift"* (`normative_strength_pq = 1/1`, `trit = +1`).
+
+| Step | Operation | Coord `[X, Y]` | Ratio (`p/q`) | Trit | Monozukuri Meaning |
+|---:|---|---|---:|---:|---|
+| 1 | **`seedOrigin([0,0])`** | `[0, 0]` | `1/1` | `0` | Tokyo `09:00 JST` Balcony origin seed before radial expansion |
+| 2 | **`spherePop`** | `[432, 432]` | `4/3` | `+1` | Spherical radial pop into 3D integer lattice (`4/3` harmonic fourth) |
+| 3 | **`crossWeave`** | `[-432, 648]` | `3/2` | `+1` | Orthogonal warp/weft cross-weave at perfect `3/2` fifth |
+| 4 | **`onimeNuts`** | `[528, -216]` | `11/9` | `-1` | Hexagonal insert torque lock (`528/432 = 11/9` sovereign coupling) |
+| 5 | **`ncTrim`** | `[144, 144]` | `1/3` | `+1` | Numerical-control Marine Salience boundary trim removing noise floor |
+| 6 | **`koguchiPolish`** | `[48, -48]` | `1/9` | `+1` | Japanese end-grain (*Koguchi*) mirror polish on integer wave edges |
+| 7 | **`phaseLock432`** | `[16, 16]` | `1/1` | `+1` | `432 Hz` fundamental phase lock across C64 `64 KB` ring buffer |
+| 8 | **`gaiaTriad528`** | `[1, -1]` | `11/9` | `+1` | GAIA 9-planet triad resonance with Alexandra's `528 Hz` star |
+| 9 | **`foldToCenter([0,0])`** | `[0, 0]` | `0/1` | `0` | Complete sovereign return to `[0, 0]` center with zero residual drift (`0/1`) |
+
+
 
 
