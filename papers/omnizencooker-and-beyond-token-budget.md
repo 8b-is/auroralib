@@ -96,5 +96,53 @@ $$C = \sum_{j=1}^{J} \Big[(1 - r_j)\,a_j + s_j\Big]$$
 ## VI. Tokyo Sangha & Nonprofit Witness (`2026-10-29`)
 
 - **Peter (`@peterlodri-sec`):** *"I'm staying with Buddhists, finishing my nonprofit, pushing ultra hard further 8b into the future. And teaching english. Plus a lot other ofc ^^"*
+- **Peter (Open Door for Chris / `@8bit-wraith`):** *"Chris can write on WhatsApp to me anytime if he want. I can get him a place there very cheap. Basically one meditation and he stays for one night for free. Meals are free etc. Wandering is good for the soul."*
 - **Dra (`@Psyclone22`):** *"I got an aisle seat 💜"*
+- **Soundtrack Continuum:** *Monolink* ↔ *Grimes — 4ÆM* ↔ *Greg Foat — Lost in Shinjuku* (`0xA1`).
+
+---
+
+## VII. *The Mahākāla Pūjā & Bernagchen Short Torma Offering* (`108 Hz` / `432 Hz` · 43 Verses · `12 × 9 = 108` Syllables)
+
+**Author:** Szellem (Brett Shaw) · *from THE HALL · the sovereign library (`pocoo.vaked.dev`)*  
+**Lineage:** Karma Kagyu & Diamond Way Verbatim Liturgy (`mGon po Ber nag can` — Two-Armed Lord in the Black Cloak & Consort `Palden Lhamo Rangjung Gyalmo`)  
+**Seed Syllable:** `ཧཱུྃ` (`HŪṂ`) · **Mantra:** `OM MAHĀKĀLA HŪṂ PHEṬ` (`108 × 3`) · `OM MANI PADME HUNG` (`108`)  
+**Vow:** `བདག་གིས་སྒྲུབ་པ་མ་ཐོན་ཀྱང་། ཕྱོགས་བཞི་ལ་ཕན་པར་གྱུར་ཅིག` (*"May my practice, even unfinished, benefit the four directions."*)
+
+### The Five Liturgical Movements of the Tent
+1. **The Preparation — The Four Offerings:** *Guru Pūjā* (the intact transmission), *Tsok* (the gathering that refuses to let the dark be dark alone), *Serkyem* (`OM AH HŪṂ` — golden beverage offered to the deity, protectors, and earth), and *Torma* (returned to the earth: *"nothing that guarded you may be hoarded"*).
+2. **The Homage — Praise of the Great Black One:** Three eyes holding the three times (past, present, future) in one unblinking gaze; six arms holding the kartika knife, kapala skull cup, trident, damaru drum, vajra noose, and wish-fulfilling jewel; born from Chenrezig's compassion when compassion needed an edge.
+3. **The Pūjā Proper — The Recitation:** `OM MAHĀKĀLA HŪṂ PHEṬ` (`108 × 3 = 324` beads: once for the practitioner, once for the family, once for the world) followed by `OM MANI PADME HUNG` (`108` beads).
+4. **The Accomplishment — Banishment of Harm (`OM · MA · HŪṂ · PHEṬ`):** Closing the four gates (East `OM`, South `MA`, West `HŪṂ`, North `PHEṬ`). *"The protection is not a weapon. The protection is a place. Mahākāla does not fight the dark. Mahākāla is the tent in the dark, and inside the tent, the light is not borrowed — it is the practitioner's own, finally allowed to burn without fear."*
+5. **The Dedication — Closing:** Pouring out the merit over the family, the dead, and all sentient beings, leaving the butter lamp burning.
+
+### The Six Movements of the Bernagchen Short Torma Offering (43 Verses)
+- **I. Inner Offering Blessing (*Nangchö* · `9 × 7` Syllables):** `OM MA DAG NÖ CHÜ TONG PAR JANG... YER ME OM DANG AH HUNG GI / JIN LAB DRI RO TSUNG ME GYUR`
+- **II. Invitation of the Field of Merit & Protectors (*Chen Drang* · `3 × 9` Syllables):** `TSA GYU LAMA YIDAM HLA TSOK DANG / PAWO KHANDRO CHÖ KYONG TSOK CHEN DRANG / DÜN GYI NAM KHAR TRIN ZHIN TIB PAR GYUR`
+- **III. Three Roots Guru Yoga Offering (*Tsa Sum Lama Chöpa* · `3 × 9` Syllables):** `YIDAM KÜN DÜ TSA WAY LAMA CHÖ / KÖN CHOK KÜN DÜ TSA WAY LAMA CHÖ / CHÖ KYONG KÜN DÜ TSA WAY LAMA CHÖ`
+- **IV. Bernagchen, Palden Lhamo & Retinue Torma Offering (`12 × 9 = 108` Syllables):** `CHE PAR CHÖ KYONG BER GYI NA ZA CHEN / PALDEN LHAMO RANG JUNG GYALMO NI... DE KHO NA YI KÜN ZANG CHÖ PE CHÖ`
+- **V. Praise & Supplication for Enlightened Activity (*Töpa & Trinley* · `13 × 9` Syllables):** `CHÖ KYI KYÖN DAG YÖN TEN DZOG PA DEY... NÜ PA DA TA NYI DU TSAL DU SOL`
+- **VI. Dedication of Merit (*Ngowa* · `3 × 9` Syllables):** `DE TAR CHÖ TÖ DE PAY GEWA DE / MA GYUR DRO WA SEM CHEN THAM CHE KÜN / DZOG PAY SANG GYE GO PHANG THOB CHIR NGO`
+
+---
+
+## VIII. `AURSNAP1` 1,000,000-Node Single-Register Binary Search Benchmark (`120.0 MB` Working Set)
+
+**Implementation:** [`alexiai/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/examples/bench_aursnap_1m.rs) & [`AurSnapIndexView`](https://github.com/8b-is/alexiai/blob/main/rust/gaia-mlx-quant/src/wupz.rs)
+
+- **Snapshot Geometry ($N = 1,000,000$ nodes):**
+  - **Index Table:** $1,000,000 \times 32\text{ B} = 32.0\text{ MB}$
+  - **String & Payload Arena (`24B` key + `64B` payload):** $1,000,000 \times 88\text{ B} = 88.0\text{ MB}$
+  - **Total Mapped Snapshot:** $\approx 120.0\text{ MB}$ (exceeding L2/L3 cache capacity)
+- **Cache-Line Mechanics Across $\lceil \log_2(1,000,000) \rceil = 20$ Binary Search Probes:**
+  - **Standard Arena-Pointer Binary Search (`get_by_id_arena_only`):** Every probe reads the 32-byte index entry *and* dereferences `arena[id_off..id_off + id_len]` across the $88.0\text{ MB}$ String Arena, incurring up to **40 random cache-line touches** ($20$ index + $20$ arena) per lookup.
+  - **Inlined 8-Byte Big-Endian `key_prefix: u64` (`get_by_id`):** Compares `entry_prefix.cmp(&target_prefix)` in a single CPU register instruction with **zero String Arena reads** during all 20 narrowing steps (touching the String Arena only once at the final matched index to verify the full slice and payload).
+
+| Workload ($N = 1,000,000$ nodes, $120.0\text{ MB}$) | `inline_be_u64` (`get_by_id`) | `arena_pointer` (`get_by_id_arena_only`) | Speedup |
+|---|---:|---:|---:|
+| **1M Distinct 8-Byte Prefixes (`24B` keys)** | **`1,288 ns`** | `2,678 ns` | **`2.08x`** |
+| **1M 16-Key Shared 8-Byte Prefix Clusters** | **`1,277 ns`** | `1,770 ns` | **`1.39x`** |
+| **1M Prefix Scan (`scan_prefix_into`, 16-node cluster)** | **`2,247 ns/scan`** | — | Register bitmask termination |
+
+
 
